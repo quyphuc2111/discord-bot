@@ -1,11 +1,11 @@
 module.exports = {
-  OWNER_IDS: [], // Bot owner ID's
+  OWNER_IDS: ["935546299745447967"], // Bot owner ID's
   PREFIX: "!", // Default prefix for the bot
-  SUPPORT_SERVER: "", // Your bot support server
+  SUPPORT_SERVER: "Lavalink", // Your bot support server
   INTERACTIONS: {
-    SLASH: false, // Should the interactions be enabled
-    CONTEXT: false, // Should contexts be enabled
-    GLOBAL: false, // Should the interactions be registered globally
+    SLASH: true, // Should the interactions be enabled
+    CONTEXT: true, // Should contexts be enabled
+    GLOBAL: true, // Should the interactions be registered globally
     TEST_GUILD_ID: "xxxxxxxxxxx", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
