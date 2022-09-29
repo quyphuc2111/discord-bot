@@ -1,7 +1,7 @@
 module.exports = {
   OWNER_IDS: ["935546299745447967"], // Bot owner ID's
   PREFIX: "!", // Default prefix for the bot
-  SUPPORT_SERVER: "Lavalink", // Your bot support server
+  SUPPORT_SERVER: "Gánh Xiếc Tập Tạ", // Your bot support server
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
     CONTEXT: true, // Should contexts be enabled
@@ -48,17 +48,16 @@ module.exports = {
   },
 
   ERELA_JS: {
-    ENABLED: false,
+    ENABLED: true,
     IDLE_TIME: 60, // Time in seconds before the bot disconnects from the voice channel
     MAX_SEARCH_RESULTS: 5,
     // Add any number of lavalink nodes here
     // Refer to https://github.com/freyacodes/Lavalink to host your own lavalink server
     NODES: [
       {
-        host: "localhost",
-        port: 2333,
-        password: "youshallnotpass",
-        identifier: "Local Node",
+        host: "connect.freelavalink.ga",
+        port: 2000,
+        password: "www.freelavalink.ga",
         secure: false,
       },
     ],

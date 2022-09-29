@@ -32,7 +32,7 @@ module.exports = (client) => {
   }
 
   const erela = new Manager({
-    nodes: client.config.ERELA_JS.NODES,
+  
     autoPlay: true,
     plugins,
 
@@ -40,6 +40,7 @@ module.exports = (client) => {
       const guild = client.guilds.cache.get(id);
       if (guild) guild.shard.send(payload);
     },
+    nodes: client.config.ERELA_JS.NODES,
   });
 
   erela.on("nodeConnect", (node) => {
