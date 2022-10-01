@@ -56,7 +56,7 @@ module.exports = {
     NODES: [
       {
         host: "connect.freelavalink.ga",
-        port: 2000,
+        port: 5000,
         password: "www.freelavalink.ga",
         secure: false,
       },
